@@ -9,7 +9,7 @@ public class Library {
     private List books;
     
     /**
-     * Creates a new empty library.
+     * Creates a new  library.
      *
      */
     public Library() {
