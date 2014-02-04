@@ -9,7 +9,7 @@ public class Book {
     private int publicationYear;
 
     /**
-     * Creates a new book.
+     * Creates a  book.
      * 
      * @param title
      * @param author
