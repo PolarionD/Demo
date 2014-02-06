@@ -7,6 +7,8 @@ public class Example {
     public static void main(String[] args) {
         Book myFirstBook = new Book("The C Programming Language", "Kernighan & Ritchie", "Jackson", 1996);
 		 Book mySecondBook = new Book("Requirement Management Engineering", "Kinley", "Jackson", 1996);
+	 Book mySecondBook = new Book("Quality Management Engineering", "Tucson", "Peter", 2014);
+
         Library myLibrary = new Library();
         myLibrary.add(myFirstBook);
         myLibrary.add(new Book("C C++ Programmer's Reference Third Edition", "Herbert Schildt", "JacksonMcGraw-Hill", 2003));
