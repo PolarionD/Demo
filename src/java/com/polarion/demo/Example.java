@@ -11,7 +11,7 @@ public class Example {
 
         Library myLibrary = new Library();
         myLibrary.add(myFirstBook);
-        myLibrary.add(new Book("C C++ Programmer's Reference Third Edition", "Herbert Schildt", "JacksonMcGraw-Hill", 2003));
+        myLibrary.add(new Book("Java Git Programmer's Reference Third Edition", "Herbert Schildt", "JacksonMcGraw-Hill", 2003));
         Book[] results = myLibrary.search("mme");
         if (results.length == 0) {
             System.out.println("Sorry, No Results Found");
