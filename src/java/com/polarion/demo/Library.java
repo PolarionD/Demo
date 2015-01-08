@@ -64,5 +64,8 @@ public class Library {
     private boolean matches(String s, String word) {
         return (s != null) && s.indexOf(word) >= 0;
     }
+ private boolean no_matches(String s, String word) {
+        return (s != null) && s.indexOf(word) >= 0;
+    }
     
 }
