@@ -24,7 +24,10 @@ public class Library {
     public void add(Book book) {
         books.add(book);
     }
-
+public void modify(Book book) {
+* this is a Polarion Update of my source
+        books.modify(book);
+    }
     /**
      * Removes a book from the library, if it was previously added.
      * Returns <code>true</code>, if the book was removed.
