@@ -5,7 +5,7 @@ package com.polarion.demo;
 public class Example {
     
     public static void main(String[] args) {
-        Book myFirstBook = new Book("The C Programming Language", "Kernighan & Ritchie", "Jackson", 1996);
+        Book myFirstBook = new Book("The C Programming Language", "Kernighan & Ritchie", "Jackson5", 1996);
 		 Book mySecondBook = new Book("Requirement Management Software Engineering", "Kinley", "Jackson", 1996);
 	 Book mySecondBook = new Book("Quality Management Engineering", "Tucson", "Peter", 2014);
 
